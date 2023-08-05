@@ -28,8 +28,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "669641125"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://realaizenbots:arindam964188@cluster0.nevbx2y.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "heavensharebot")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://realaizen0:aizen747870964188@aizensbots.urxxlig.mongodb.net/?retryWrites=true&w=majority")
+DB_NAME = os.environ.get("DATABASE_NAME", "aizenbots")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001344295233"))
@@ -49,7 +49,7 @@ except ValueError:
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel to use me\n\nKindly Please join Channel</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "anime_heaven_files")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "[@Anime_Collectors]")
 
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
